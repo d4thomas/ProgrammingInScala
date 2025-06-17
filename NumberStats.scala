@@ -9,9 +9,7 @@ object NumberStats:
       "Max" -> numbers.max
     )
 
-  @main def showStats(): Unit =
-
-    val numbers = ArrayBuffer(23.5, -42.0, 15.7, 88.1, -12.9, 44.0)
+  def showStats(numbers: ArrayBuffer[Double]): Unit =
     val stats = NumberStats.calculateStats(numbers.toSeq)
 
     println(s"Numbers: ${numbers.mkString(", ")}")
