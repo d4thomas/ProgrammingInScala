@@ -1,0 +1,36 @@
+# === Scala ===
+*.class
+*.log
+*.tmp
+*.out
+
+# === Scala CLI (BSP, temp) ===
+.bsp/
+.project/
+.scala-build/
+.scala-deps.json
+.scala-cli/
+
+# === sbt ===
+target/
+lib_managed/
+src_managed/
+project/target/
+project/project/
+dist/
+
+# === Mill (alternative build tool) ===
+out/
+
+# === IntelliJ IDEA ===
+.idea/
+*.iml
+*.iws
+.idea_modules/
+*.ipr
+
+# IntelliJ: optional but useful
+.cache/
+*.bak
+*.swp
+*.swo
