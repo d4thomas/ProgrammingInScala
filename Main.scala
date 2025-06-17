@@ -1,2 +1,3 @@
-@main def printAbs(): Unit =
-  println(MyProgram.formatAbs(-42))
+@main def MyProgram(): Unit =
+  AbsoluteValue.formatAbs(-42)
+  NumberStats.showStats()
